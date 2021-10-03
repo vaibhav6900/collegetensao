@@ -1,0 +1,179 @@
+/* write your css here */
+
+/* iphone 4 & 4s */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+  #page-college [studio-id="college_List_463"] ion-list {
+    max-height: 250px;
+  }
+
+  #page-college [studio-id="college_List_463"] .filter-holder .item-select {
+    max-height: 100%;
+  }
+}
+
+/* iphone 5, 5s,5c */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+  #page-college [studio-id="college_List_463"] ion-list {
+    max-height: 300px;
+  }
+
+  #page-college [studio-id="college_List_463"] .filter-holder .item-select {
+    max-height: 100%;
+  }
+}
+
+/* iphone 6s, 6, 7  */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) {
+  #page-college [studio-id="college_List_463"] ion-list {
+    max-height: 350px;
+  }
+
+  #page-college [studio-id="college_List_463"] .filter-holder .item-select {
+    max-height: 100%;
+  }
+}
+
+/* iphone 6+, 7+, 8+ */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) {
+  #page-college [studio-id="college_List_463"] ion-list {
+    max-height: 450px;
+  }
+}
+
+/* iphone x */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) {
+  #page-college [studio-id="college_List_463"] ion-list {
+    max-height: 510px;
+  }
+}
+
+/* Android -Galaxy s3*/
+
+@media only screen 
+  and (min-device-width: 400px) 
+  and (max-device-width: 750px) {
+  #page-college [studio-id="college_List_463"] ion-list {
+    max-height: 360px;
+  }
+}
+
+#page-college {
+  --theme-primary-color: url("../../imgs/bussy.jpg");
+  background: url("../../imgs/bussy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#page-college [studio-id="college_List_463"] {
+  background: transparent;
+}
+
+#page-college [studio-id="college_List_463"] .listtitle h4 {
+  --theme-secondary-color: #ffffff;
+  color: var(--theme-secondary-color);
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+#page-college [studio-id="college_List_463"] ion-list {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+#page-college [studio-id="college_List_463"] ion-list .item-holder {
+  --theme-shadow-color: #3e3f52;
+  border: none;
+  box-shadow: 0px 4px 6px 2px var(--theme-shadow-color);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+#page-college [studio-id="college_List_463"] ion-list .item-holder button {
+  --theme-primary-shade-one: #35354b;
+  --theme-text-primary-color: #ffffff;
+  background: var(--theme-primary-shade-one);
+  color: var(--theme-text-primary-color);
+}
+
+#page-college [studio-id="college_List_463"] ion-list .item-title {
+  --theme-text-primary-color: #ffffff;
+  font-weight: 500;
+  color: var(--theme-text-primary-color);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+#page-college [studio-id="college_List_463"] ion-list .item-subtitle {
+  --theme-text-secondary-color: #e6e6e6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 50%;
+  min-width: 50%;
+  font-size: 1.3rem;
+  color: var(--theme-text-secondary-color);
+}
+
+#page-college [studio-id="college_List_463"] ion-list .item-caption {
+  --theme-text-secondary-color: #e6e6e6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 50%;
+  min-width: 50%;
+  font-size: 1.3rem;
+  color: var(--theme-text-secondary-color);
+}
+
+#page-college [studio-id="college_List_463"] ion-fab button {
+  --theme-primary-shade-two: #20202d;
+  --theme-secondary-color: #ffffff;
+  background: var(--theme-primary-shade-two);
+  color: var(--theme-secondary-color);
+}
+
+#page-college [studio-id="college_List_463"] .filter-holder .item-select {
+  --theme-secondary-color: #ffffff;
+  background: transparent;
+  color: var(--theme-secondary-color);
+  margin-bottom: 5rem;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+#page-college [studio-id="college_List_463"] .filter-holder .item-select .input-wrapper {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+#page-college [studio-id="college_List_463"] .filter-holder .item-select ion-label {
+  --theme-secondary-color: #ffffff;
+  color: var(--theme-secondary-color);
+}
+
+#page-college [studio-id="college_List_463"] .filter-holder .item-select ion-select .select-text {
+  --theme-secondary-color: #ffffff;
+  color: var(--theme-secondary-color);
+}
+
+#page-college [studio-id="college_List_463"] .filter-holder .item-select ion-select .select-icon-inner {
+  --theme-secondary-color: #ffffff;
+  color: var( --theme-secondary-color);
+}

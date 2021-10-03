@@ -1,0 +1,174 @@
+/* write your css here */
+
+/* iphone 4 & 4s */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+}
+
+/* iphone 5, 5s,5c */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+
+}
+
+/* iphone 6s, 6, 7  */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) {
+
+}
+
+/* iphone 6+, 7+, 8+ */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) {
+
+}
+
+/* iphone x */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) {
+
+}
+
+/* Android -Galaxy s3*/
+
+@media only screen 
+  and (min-device-width: 400px) 
+  and (max-device-width: 750px) {
+
+}
+
+#page-chatbot {
+  --theme-primary-color: url("../../imgs/bussy.jpg");
+  background: url("../../imgs/bussy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] .msgWatson h4 {
+  --theme-primary-shade-one: #35354b;
+  --theme-secondary-color: #ffffff;
+  display: flex;
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 20px;
+  color: var(--theme-secondary-color);
+  background: var(--theme-primary-shade-one);
+  border-radius: 25px;
+  float: right;
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] .msgWatson h4::before {
+  --theme-primary-shade-one: #35354b;
+  content: ;
+  position: absolute;
+  z-index: -1;
+  bottom: -2px;
+  right: -7px;
+  height: 20px;
+  border-right: 20px solid var(--theme-primary-shade-one);
+  border-bottom-left-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] .msgWatson h4::after {
+  --theme-primary-shade-one: #35354b;
+  content: ;
+  position: absolute;
+  z-index: 1;
+  bottom: -2px;
+  right: -56px;
+  width: 26px;
+  height: 20px;
+  background: var(--theme-primary-shade-one);
+  border-bottom-left-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] .msgUser h4 {
+  --theme-secondary-color: #ffffff;
+  --theme-primary-shade-one: #35354b;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 20px;
+  background: var(--theme-secondary-color);
+  border-radius: 25px;
+  color: var(--theme-primary-shade-one);
+  float: left;
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] .msgUser h4::before {
+  --theme-secondary-color: #ffffff;
+  content: '';
+  position: absolute;
+  z-index: 2;
+  bottom: -2px;
+  left: -7px;
+  height: 20px;
+  border-left: 20px solid var(--theme-secondary-color);
+  border-bottom-right-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] .msgUser h4::after {
+  content: '';
+  position: absolute;
+  z-index: 3;
+  bottom: -2px;
+  left: 4px;
+  width: 26px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] ion-toolbar {
+  --theme-primary-color: #494a68;
+  --theme-secondary-color: #ffffff;
+  border: none;
+  border-top: 1px solid var(--theme-secondary-color);
+  background: var(--theme-primary-color);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] ion-toolbar .toolbar-background {
+  background: transparent !important;
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] ion-toolbar input {
+  --theme-secondary-color: #ffffff;
+  color: var(--theme-secondary-color);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] ion-toolbar input::placeholder {
+  --theme-secondary-color: #ffffff;
+  color: var(--theme-secondary-color);
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] ion-toolbar ion-buttons {
+  background: transparent;
+}
+
+#page-chatbot [studio-id="chatbot_Watson Chat_9912"] ion-toolbar ion-buttons ion-icon {
+  --theme-secondary-color: #ffffff;
+  color: var(--theme-secondary-color);
+}

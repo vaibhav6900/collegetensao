@@ -1,0 +1,6 @@
+<ion-header>
+  <ion-navbar text-center="">
+    <ion-title>Chatbot</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding="" text-center="" id="page-chatbot"><div component-name="studio-grid-row" class="row" style="width:100%;"><div component-name="studio-grid-col" class="center-xs col-xs-offset-0 col-xs-12" component-height="2" component-ystart="0"><div studio-id="chatbot_Watson Chat_9912" component-name="studio-watson-chat-bot" style="display: flex; flex-direction: column;  width: 100%; padding-bottom: 5rem;"><div style="display: flex; flex-direction: column;overflow-y: scroll;padding-bottom: 1.5rem; padding-top: 1rem; overflow-x: hidden;" class="chat-container"><div *ngFor="let msg of messages" [attr.class]="!msg.isWatson ? 'msgWatson' : 'msgUser'"><h4 class="msg">{{msg.m}}</h4></div></div><ion-footer style="height:'auto' !important; "><ion-toolbar><ion-input type="text" placeholder="Type something here..." [(ngModel)]="input" (keyup.enter)="message()"></ion-input><ion-buttons end=""><button ion-button="" color="primary" (click)="message()"><ion-icon name="send"></ion-icon></button></ion-buttons></ion-toolbar></ion-footer></div></div></div></ion-content>

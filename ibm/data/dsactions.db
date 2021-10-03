@@ -1,0 +1,5 @@
+{"verb":"GET","target":"/workitems/{id}","usage":true,"authenticationObj":{"type":"Bearer","redirect_uri":"/mfp/api/az/v1/authorization","scope":"RegisteredClient"},"foreignkey":"wed6ESMgvw0EH0UL","_id":"CJHNEVSDPKvDk4MS"}
+{"verb":"POST","target":"/workitems","usage":true,"authenticationObj":{"type":"Bearer","redirect_uri":"/mfp/api/az/v1/authorization","scope":"RegisteredClient"},"foreignkey":"wed6ESMgvw0EH0UL","_id":"FdrFF9IfdM06rtCy"}
+{"verb":"GET","target":"/workitems","usage":true,"authenticationObj":{"type":"Bearer","redirect_uri":"/mfp/api/az/v1/authorization","scope":"RegisteredClient"},"foreignkey":"wed6ESMgvw0EH0UL","_id":"GPGZPaYlJap5pRoy"}
+{"verb":"PUT","target":"/workitems/{id}","usage":true,"authenticationObj":{"type":"Bearer","redirect_uri":"/mfp/api/az/v1/authorization","scope":"RegisteredClient"},"foreignkey":"wed6ESMgvw0EH0UL","_id":"swCDkpbibpP73ZmD"}
+{"verb":"DELETE","target":"/workitems/{id}","usage":true,"authenticationObj":{"type":"Bearer","redirect_uri":"/mfp/api/az/v1/authorization","scope":"RegisteredClient"},"foreignkey":"wed6ESMgvw0EH0UL","_id":"zq4xhgnpIYNpy3wK"}
